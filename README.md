@@ -8,5 +8,14 @@ A place to capture testing best practices that are curated by industry's best so
 
 # Best Resources To Learn Testing
 
+## ⚪ ️ Unit testing
+## ⚪ ️ Integration testing
+## ⚪ ️ Component testing
+## ⚪ ️ Acceptance testing
+### ⚪ ️ Visual testing
+### ⚪ ️ Front-end performance testing
+### ⚪ ️ Back-end performance testing
+### ⚪ ️ Security testing
+
 # X: React Testing Library
 
