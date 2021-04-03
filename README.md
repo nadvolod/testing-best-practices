@@ -3,8 +3,10 @@ A place to capture testing best practices that are curated by industry's best so
 
 ## `Table of Contents`
 
+### [`Best Resources To Learn Testing`](#best-resources-to-learn-testing)
 ### [`X: React Testing Library`](#section-)
 
+# Best Resources To Learn Testing
 
 # X: React Testing Library
 
