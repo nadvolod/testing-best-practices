@@ -1,5 +1,5 @@
 # testing-best-practices
-A place to capture testing best practices that are curated by industry's best so that we can all do better testing🚀
+Testing best practices curated by industry's best so that we can all enjoy better tech.🚀
 
 ## `Table of Contents`
 
