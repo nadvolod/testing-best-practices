@@ -3,8 +3,15 @@ Testing best practices curated by industry's best so that we can all enjoy bette
 
 ## `Table of Contents`
 
+### [`Testing Web Applications`](#testing-web-applications)
 ### [`Best Resources To Learn Testing`](#best-resources-to-learn-testing)
 ### [`X: React Testing Library`](#section-)
+
+# Testing Web Applications
+
+## ⚪ ️ Testing a button
+
+[TODO: ADD AN EXAMPLE FROM HERE](https://github.com/nadvolod/js-code/blob/1b6b15a79349748a40fc630d4d8de699ffd50780/testing-js/react-components/test-app/src/App.test.js#L4)
 
 # Best Resources To Learn Testing
 
