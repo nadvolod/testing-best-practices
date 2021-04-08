@@ -9,6 +9,9 @@ Testing best practices curated by industry's best so that we can all enjoy bette
 
 # Testing Web Applications
 
+The modern web application typically runs on some type of JavaScript framework such as Angular, React, or Vue. The guiding principle of testing such web applications is that we rarely require a browser to test them. A combination of component, unit, and visual tests will be the most powerful in ensuring quality web applications.
+
+
 ## ⚪ ️ Testing a button
 
 [TODO: ADD AN EXAMPLE FROM HERE](https://github.com/nadvolod/js-code/blob/1b6b15a79349748a40fc630d4d8de699ffd50780/testing-js/react-components/test-app/src/App.test.js#L4)
