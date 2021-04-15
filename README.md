@@ -72,10 +72,15 @@ https://techbeacon.com/app-dev-testing/10-testing-scenarios-you-should-never-aut
 ## ⚪ ️ Testing links
 
 https://techbeacon.com/app-dev-testing/10-testing-scenarios-you-should-never-automate-selenium
+https://github.com/saucelabs-training/automation-best-practices/blob/9cea9cb0af39de3adc91dd42e89d68a9a1a5df96/my-react-app/src/__tests__/Solution.test.js#L16
 
 ## ⚪ ️ Testing video streaming
 
 https://techbeacon.com/app-dev-testing/10-testing-scenarios-you-should-never-automate-selenium
+
+## ⚪ ️ Testing tabs
+
+https://github.com/saucelabs-training/automation-best-practices/blob/9cea9cb0af39de3adc91dd42e89d68a9a1a5df96/my-react-app/src/__tests__/Solution.test.js#L25
 
 
 # Best Resources To Learn Testing
