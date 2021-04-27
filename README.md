@@ -32,22 +32,22 @@ The modern web application typically runs on some type of JavaScript framework s
 
 ## ⚪ ️ Testing a button
 
-✅ Do: Use a component test with a virtual DOM instead of an actual browser
+✅ **Do**: Use a component test with a virtual DOM instead of an actual browser
 
 
-❌ Otherwise: Extra dependencies will create more complications and work, with no added benefit:
+❌ **Otherwise**: Extra dependencies will create more complications and work, with no added benefit:
 
-⚠️Need a browser
+⚠️ Need a browser
 
-⚠️Need a server
+⚠️ Need a server
 
-⚠️Need to deal with network issues
+⚠️ Need to deal with network issues
 
-⚠️Test will be slower
+⚠️ Test will be slower
 
-⚠️Need an extra dependency (Cypress/Selenium...)
+⚠️ Need an extra dependency (Cypress/Selenium...)
 
-⚠️Need to learn extra dependency API
+⚠️ Need to learn extra dependency API
 
 <details><summary>✏ <b>Code Examples</b></summary>
   
