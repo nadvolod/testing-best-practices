@@ -32,6 +32,51 @@ The modern web application typically runs on some type of JavaScript framework s
 
 ## ⚪ ️ Testing a button
 
+✅ Do: Use a component test with a virtual DOM instead of an actual browser
+
+
+❌ Otherwise: Extra dependencies will create more complications and work, with no added benefit:
+
+⚠️Need a browser
+⚠️Need a server
+⚠️Need to deal with network issues
+⚠️Test will be slower
+⚠️Need an extra dependency (Cypress/Selenium...)
+⚠️Need to learn extra dependency API
+
+<details><summary>✏ <b>Code Examples</b></summary>
+  
+<br/>
+  
+### :clap: Doing It Right Example: A button should be tested with a component test
+
+![](https://img.shields.io/badge/🔨%20Example%20using%20Mocha-blue.svg "Using Mocha to illustrate the idea")
+
+```javascript
+// App.js - the button being tested
+function App() {
+  const [buttonColor, setButtonColor] = useState('red');
+  const newButtonColor = buttonColor === 'red' ? 'blue' : 'red';
+  return (
+    <div>
+      <button 
+        style={{backgroundColor: buttonColor}}
+        onClick={() => setButtonColor(newButtonColor)}>
+          Change to {newButtonColor} 
+      </button>
+    </div>
+  );
+}
+
+```
+
+<br/>
+
+</details>
+
+
+
+
 [TODO: ADD AN EXAMPLE FROM HERE](https://github.com/nadvolod/js-code/blob/1b6b15a79349748a40fc630d4d8de699ffd50780/testing-js/react-components/test-app/src/App.test.js#L4)
 
 ## ⚪ ️ Testing a CAPTCHA
