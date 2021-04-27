@@ -123,7 +123,7 @@ test('should change color to blue on click', () => {
 
 ✅ **Do**: Use a component test with a virtual DOM instead of an actual browser.
 
-Avoid clicking a link as the clickability of <a> is a default browser behavior and not the behavior of our SUT (Software Under Test).
+Avoid clicking a link as the clickability of `<a>` is a default browser behavior and not the behavior of our SUT (Software Under Test).
 
 ❌ **Otherwise**: Extra dependencies will create more complications and work, with no added benefit. Same problems as a button test.
 
