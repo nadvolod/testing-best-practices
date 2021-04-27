@@ -38,10 +38,15 @@ The modern web application typically runs on some type of JavaScript framework s
 ❌ Otherwise: Extra dependencies will create more complications and work, with no added benefit:
 
 ⚠️Need a browser
+
 ⚠️Need a server
+
 ⚠️Need to deal with network issues
+
 ⚠️Test will be slower
+
 ⚠️Need an extra dependency (Cypress/Selenium...)
+
 ⚠️Need to learn extra dependency API
 
 <details><summary>✏ <b>Code Examples</b></summary>
@@ -70,14 +75,49 @@ function App() {
 
 ```
 
+**Expected Behaviors**
+1. Button starts in 'red' state
+2. Button starts with text that says "Change to blue"
+3. On click, button changes color to 'blue'
+4. On click, button changes text that says "Change to red"
+
+```javascript
+import { render, screen, fireEvent } from '@testing-library/react';
+import App from './App';
+
+test('should start in red state', () => {
+  //render the component in a virtual DOM
+  render(<App />);
+  //find an element with a role of button and text
+  const button = screen.getByRole('button', {name: 'Change to blue'})
+  //expect the background color to be red
+  expect(button).toHaveStyle({backgroundColor: 'red'})
+});
+
+test('should change color to blue on click', () => {
+  //render the component in a virtual DOM
+  render(<App />);
+  //find an element with a role of button and text
+  const button = screen.getByRole('button', {name: 'Change to blue'})
+  //click button
+  fireEvent.click(button);
+  //expect the background color to be blue after click
+  expect(button).toHaveStyle({backgroundColor: 'blue'})
+  //check that text is changed to 'Changed to red'
+  expect(button.textContent).toBe('Change to red')
+})
+```
+
 <br/>
 
 </details>
 
+<br/>
+<details><summary>© <b>Credits & read-more</b></summary>
+  1. <a href='https://github.com/nadvolod/js-code/blob/1b6b15a79349748a40fc630d4d8de699ffd50780/testing-js/react-components/test-app/src/App.test.js#L4'>Nikolay Advolodkin - testing a button component</a>
+</details>
 
-
-
-[TODO: ADD AN EXAMPLE FROM HERE](https://github.com/nadvolod/js-code/blob/1b6b15a79349748a40fc630d4d8de699ffd50780/testing-js/react-components/test-app/src/App.test.js#L4)
+<br/><br/>
 
 ## ⚪ ️ Testing a CAPTCHA
 
