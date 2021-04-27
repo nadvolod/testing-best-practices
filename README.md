@@ -56,7 +56,6 @@ The modern web application typically runs on some type of JavaScript framework s
   
 ### :clap: Doing It Right Example: A button should be tested with a component test
 
-![](https://img.shields.io/badge/🔨%20Example%20using%20Mocha-blue.svg "Using Mocha to illustrate the idea")
 
 ```javascript
 // App.js - the button being tested
@@ -119,6 +118,71 @@ test('should change color to blue on click', () => {
 </details>
 
 <br/><br/>
+
+## Testing a link
+
+✅ **Do**: Use a component test with a virtual DOM instead of an actual browser.
+
+Avoid clicking a link as the clickability of <a> is a default browser behavior and not the behavior of our SUT (Software Under Test).
+
+❌ **Otherwise**: Extra dependencies will create more complications and work, with no added benefit. Same problems as a button test.
+
+<details><summary>✏ <b>Code Examples</b></summary>
+  
+<br/>
+  
+### :clap: Doing It Right Example: A link should be tested with a component test
+
+**SUT**
+
+```javascript
+// App.js - the link being tested
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://www.ultimateqa.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="learn-link"
+        >
+          Learn Testing with Mia
+        </a>
+      </header>
+    </div>
+  );
+}
+
+```
+
+**Rendered View**
+
+**Expected Behaviors**
+1. Link goes to "https://www.ultimateqa.com"
+2. Link opens in new tab
+
+```javascript
+
+```
+
+<br/>
+
+</details>
+
+<br/>
+<details><summary>© <b>Credits & read-more</b></summary>
+  1. <a href='https://github.com/nadvolod/js-code/blob/1b6b15a79349748a40fc630d4d8de699ffd50780/testing-js/react-components/test-app/src/App.test.js#L4'>Nikolay Advolodkin - testing a button component</a>
+</details>
+
+<br/><br/>
+
+
 
 ## ⚪ ️ Testing a CAPTCHA
 
