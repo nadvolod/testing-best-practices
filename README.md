@@ -193,7 +193,7 @@ test('link opens in new tab', () => {
 
 <br/>
 <details><summary>© <b>Credits & read-more</b></summary>
-  1. <a href='https://github.com/nadvolod/js-code/blob/1b6b15a79349748a40fc630d4d8de699ffd50780/testing-js/react-components/test-app/src/App.test.js#L4'>Nikolay Advolodkin - testing a button component</a>
+  1. <a href='https://github.com/saucelabs-training/automation-best-practices/blob/main/my-react-app/FULL-COVERAGE.md#why-is-this-test-bad'>Automation Best Practices workshop</a>
 </details>
 
 <br/><br/>
