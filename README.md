@@ -5,6 +5,7 @@ Testing best practices curated by industry's best so that we can all enjoy bette
 
 ### [`What is a good test?`](#what-is-a-good-test)
 ### [`Testing Web Applications`](#testing-web-applications)
+#### [Testing a button](#testing-a-button)
 ### [`Best Resources To Learn Testing`](#best-resources-to-learn-testing)
 ### [`X: React Testing Library`](#section-)
 
