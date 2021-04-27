@@ -132,7 +132,7 @@ Avoid clicking a link as the clickability of `<a>` is a default browser behavior
   
 <br/>
   
-### :clap: Doing It Right Example: A link should be tested with a component test
+### :clap: Doing It Right Example: A link should be tested with a component test by 
 
 **SUT**
 
@@ -169,7 +169,22 @@ function App() {
 2. Link opens in new tab
 
 ```javascript
+test('link has correct url', () => {
+  //render our App component in a virtual DOM
+  render(<App />);
+  //get the link element by data-testid
+  const linkElement = screen.getByTestId('learn-link')
+  //assert that the href is correct
+  expect(linkElement.href).toContain('ultimateqa.com');
+})
 
+test('link opens in new tab', () => {
+  //render our App component in a virtual DOM
+  render(<App />);
+  const linkElement = screen.getByText('Learn Testing with Mia')
+  //Link should open a new tab
+  expect(linkElement.target).toBe('_blank')
+})
 ```
 
 <br/>
