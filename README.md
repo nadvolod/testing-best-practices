@@ -1,5 +1,5 @@
 # testing-best-practices
-Testing best practices curated by industry's best so that we can all enjoy better tech.🚀
+Testing best practices are curated by industry's most-experienced so that we can have a single source of truth for testing today's technology!
 
 ## `Table of Contents`
 
