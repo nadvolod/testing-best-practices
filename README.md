@@ -4,6 +4,7 @@ Testing best practices are curated by industry's most-experienced so that we can
 ## `Table of Contents`
 
 ### [`What is a good test?`](#what-is-a-good-test)
+### [`General rules of testing`](#general-rules-of-testing)
 ### [`Testing Web Applications`](#testing-web-applications)
 * [Testing a button](#testing-a-button)
 * [Testing a link](#testing-a-link)
@@ -26,6 +27,27 @@ Testing best practices are curated by industry's most-experienced so that we can
 * Specific — if a test fails, the cause of the failure should be obvious.
 * Deterministic — if nothing changes, the test result shouldn’t change.
 * Predictive — if the tests all pass, then the code under test should be suitable for production.
+
+# General rules of testing
+
+## Retries
+
+✅ **Do**: Only use retries when the cause of indeterminism is fully understood and is unavoidable
+
+What is **unavoidable indeterminism**?
+* Internet instability (or maybe we can mock this out)
+* 3rd party Selenium Grid going down
+* 3rd party service going down (or can we mock this out)
+
+❌ **Otherwise**: We are simply putting a bandaid on instability and will pay for it later, either in the app or the build
+
+<br/>
+<details><summary>© <b>Credits & read-more</b></summary>
+  1. <a href='https://www.linkedin.com/feed/update/urn:li:activity:6803741817750855680/'>Jonathan Lipps, Appium creator</a>
+</details>
+
+<br/><br/>
+
 
 # Testing Web Applications
 
