@@ -4,7 +4,7 @@ Testing best practices are curated by industry's most-experienced so that we can
 ## `Table of Contents`
 
 ### [`What is a good test?`](#what-is-a-good-test)
-### [`General rules of testing`](#general-rules-of-testing)
+### [`General testing rules`](#general-rules-of-testing)
 ### [`Testing Web Applications`](#testing-web-applications)
 * [Testing a button](#testing-a-button)
 * [Testing a link](#testing-a-link)
