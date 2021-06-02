@@ -8,7 +8,7 @@ Testing best practices are curated by industry's most-experienced so that we can
 ### [`Testing Web Applications`](#testing-web-applications)
 * [Testing a button](#testing-a-button)
 * [Testing a link](#testing-a-link)
-* [Testing CAPTCHA](#testing-a-CAPTCHA)
+* [Testing CAPTCHA](#Testing-a-CAPTCHA)
 ### [`Best Resources To Learn Testing`](#best-resources-to-learn-testing)
 ### [`X: React Testing Library`](#section-)
 
