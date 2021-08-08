@@ -1,5 +1,5 @@
 # testing-best-practices
-Testing best practices are curated by industry's most-experienced so that we can have a single source of truth for testing today's technology!
+There are so many amazing testing resources on the web but they are all disorganized. What if there was a single place that used the information from these resources to create testing best practices for the world? Furthermore, each testing recommendation would be evaluated by a team of industry leaders to ensure that the practice makes sense. Testing Best Practices is that single source of truth for how to test all the relevant tech in the world.
 
 ## `Table of Contents`
 
