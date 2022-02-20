@@ -52,7 +52,7 @@ What is **unavoidable indeterminism**?
 
 # Testing Web Applications
 
-The modern web application typically runs on some type of JavaScript framework such as Angular, React, or Vue. The guiding principle of testing such web applications is that we rarely require a browser to test them. A combination of component, unit, and visual tests will be the most powerful in ensuring quality web applications.
+The modern web application typically runs on some type of JavaScript framework such as Angular, React, or Vue. A guiding principle of testing such web applications is to think about how we can do so without an actual browser. In many cases, a combination of component, unit, and visual tests will be the most powerful in ensuring quality web applications.
 
 
 ## Testing a button
